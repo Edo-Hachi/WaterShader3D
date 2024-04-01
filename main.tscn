@@ -5,9 +5,9 @@
 [node name="Main" type="Node3D"]
 
 [node name="WaterBody" parent="." instance=ExtResource("1_6pm8t")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.0853, 0, 0)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 24.8967)
+transform = Transform3D(0.852859, 0, 0.522141, 0, 1, 0, -0.522141, 0, 0.852859, 4.11664, 3.93624, 24.8967)
 fov = 100.0
 far = 500.0

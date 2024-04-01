@@ -1,21 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://c3ecgsxqekinj"]
+[gd_scene load_steps=2 format=3 uid="uid://c3ecgsxqekinj"]
 
 [ext_resource type="Script" path="res://water_body.gd" id="1_5b03h"]
-[ext_resource type="PackedScene" uid="uid://dy2vjuyfq77k7" path="res://water_spring.tscn" id="1_yyapu"]
 
 [node name="WaterBody" type="Node3D"]
 script = ExtResource("1_5b03h")
-
-[node name="WaterSpring" parent="." instance=ExtResource("1_yyapu")]
-
-[node name="WaterSpring2" parent="." instance=ExtResource("1_yyapu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
-
-[node name="WaterSpring3" parent="." instance=ExtResource("1_yyapu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
-
-[node name="WaterSpring4" parent="." instance=ExtResource("1_yyapu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 0)
-
-[node name="WaterSpring5" parent="." instance=ExtResource("1_yyapu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)

@@ -31,8 +31,9 @@ func water_update(spring_constang, dampening):
 #	water_update(k, d)
 	
 	
-func initialize():
+func initialize(x_pos):
 	height = position.y
 	target_height = position.y
 	velocity = 0
+	position.x = x_pos
 	
